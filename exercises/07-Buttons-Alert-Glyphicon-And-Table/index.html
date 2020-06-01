@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<title>07 Buttons, Alert, Glyphicon and Table</title>
+	</head>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <title>07 Buttons, Alert, Glyphicon and Table</title>
-</head>
-
-<body>
-
-</body>
-
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<h3>Is hard to remember all the bootstrap elements</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptates commodi voluptatem magnam nesciunt ad, ut nam placeat
+						delectus aut. Non vel rerum veritatis unde, optio accusantium. Sit, dolorem mollitia!
+					</p>
+					<button type="button" class="btn btn-success">Yes</button>
+					<button type="button" class="btn btn-danger">No</button>
+				</div>
+				<div class="col-6">
+					<div class="alert alert-warning" role="alert">
+						If you don't agree some of this people may slap you in the face:
+					</div>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th scope="col">Firstname</th>
+								<th scope="col">Lastname</th>
+								<th scope="col">Email</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">John</th>
+								<td>Doe</td>
+								<td>doe@gmail.com</td>
+							</tr>
+							<tr>
+								<th scope="row">Mary</th>
+								<td>Moe</td>
+								<td>mary@example.com</td>
+							</tr>
+							<tr>
+								<th scope="row">July</th>
+								<td>Doodley</td>
+								<td>jule@example</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
